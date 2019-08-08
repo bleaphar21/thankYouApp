@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="AXz-oz-HkA" kind="show" id="Kz8-18-m7V"/>
+                                    <segue destination="pNX-xx-GZF" kind="show" id="Kz8-18-m7V"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,6 +43,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="957.97101449275374" y="20.758928571428569"/>
+        </scene>
+        <!--Verification View Controller-->
+        <scene sceneID="iDb-zN-WA1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOY-qv-thH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="pNX-xx-GZF" customClass="VerificationViewController" customModule="thankYou" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eF9-vb-Raw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSo-Rf-7LD">
+                                <rect key="frame" x="184" y="247" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="PSP-Rp-J6N" kind="show" id="tJp-W2-Hg4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQf-Pl-AwA">
+                                <rect key="frame" x="184" y="687" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Zmf-Of-FLg" kind="show" id="2r8-vS-xWg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RX9-d6-4lH">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="9l9-P7-F6E" kind="show" id="o77-xE-Kba"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="abo-ZC-IoX"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1954" y="21"/>
+        </scene>
+        <!--Poonam View Controller-->
+        <scene sceneID="Rz4-7F-rt6">
+            <objects>
+                <viewController id="Zmf-Of-FLg" customClass="PoonamViewController" customModule="thankYou" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dae-YV-Py0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AXQ-Zm-fi6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abq-P6-SoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2913" y="897"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lj6-sn-gQJ">
@@ -77,22 +133,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUt-ax-bnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2914" y="21"/>
-        </scene>
-        <!--Poonam-->
-        <scene sceneID="g6z-aP-Sld">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Poonam" id="E9t-XB-EOH" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q88-ce-aIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2913" y="897"/>
-        </scene>
-        <!--Verification-->
-        <scene sceneID="onH-NS-S5E">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Verification" id="AXz-oz-HkA" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ChT-Hw-HfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1954" y="21"/>
         </scene>
     </scenes>
     <resources>
