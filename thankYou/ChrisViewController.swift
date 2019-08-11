@@ -2,15 +2,14 @@
 //  ChrisViewController.swift
 //  thankYou
 //
-//  Created by Brantley Leaphart  on 8/8/19.
+//  Created by Robby Gamble on 8/11/19.
 //  Copyright © 2019 Brantley Leaphart . All rights reserved.
 //
 
 import UIKit
 
 class ChrisViewController: UIViewController {
-    @IBOutlet weak var musicButton: Chris!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
