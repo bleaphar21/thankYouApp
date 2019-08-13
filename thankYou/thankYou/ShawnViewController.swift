@@ -1,14 +1,14 @@
 //
-//  ChrisViewController.swift
+//  ShawnViewController.swift
 //  thankYou
 //
-//  Created by Robby Gamble on 8/11/19.
+//  Created by Robby Gamble on 8/12/19.
 //  Copyright © 2019 Brantley Leaphart . All rights reserved.
 //
 
 import UIKit
 
-class ChrisViewController: UIViewController {
+class ShawnViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
