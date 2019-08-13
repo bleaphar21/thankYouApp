@@ -9,7 +9,7 @@
 import UIKit
 
 class ChrisViewController: UIViewController {
-    @IBOutlet weak var musicButton: Chris!
+ //   @IBOutlet weak var musicButton: Chris!
     @IBOutlet weak var ibrahimLabel: UILabel!
     
     override func viewDidLoad() {

@@ -13,10 +13,12 @@ class VerificationViewController: UIViewController {
     @IBOutlet weak var christf: UITextField!
     @IBOutlet weak var hugotf: UITextField!
     @IBOutlet weak var poonamtf: UITextField!
+    @IBOutlet weak var shawntf: UITextField!
     
     let chrisCheck = "93 miles strong"
     let hugoCheck = "Gracias Hugo"
     let poonamCheck = "Thank you Poonam!"
+    let shawnCheck = "Yeah boi"
     
     @IBAction func chrisBttn(_ sender: UIButton) {
         if(chrisCheck == christf.text){
@@ -35,6 +37,13 @@ class VerificationViewController: UIViewController {
     @IBAction func poonamBttn(_ sender: UIButton) {
         if(poonamCheck == poonamtf.text){
             let vc = PoonamViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
+    @IBAction func shawnBttn(_ sender: Any) {
+        if(shawnCheck == shawntf.text){
+            let vc = ShawnViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
