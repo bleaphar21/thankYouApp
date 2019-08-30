@@ -19,27 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSo-Rf-7LD">
-                                <rect key="frame" x="184" y="340" width="46" height="30"/>
+                                <rect key="frame" x="193" y="340" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="chrisBttn:" destination="pNX-xx-GZF" eventType="touchUpInside" id="LzH-3I-Z8z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQf-Pl-AwA">
-                                <rect key="frame" x="184" y="641" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="cJZ-Tn-ydR"/>
-                                    <constraint firstAttribute="width" constant="46" id="j12-Y6-RSo"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="poonamBttn:" destination="pNX-xx-GZF" eventType="touchUpInside" id="726-gU-y3Y"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RX9-d6-4lH">
-                                <rect key="frame" x="184" y="474" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RX9-d6-4lH">
+                                <rect key="frame" x="193" y="471" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="hugoBttn:" destination="pNX-xx-GZF" eventType="touchUpInside" id="3u9-Qc-mda"/>
                                 </connections>
@@ -105,9 +94,9 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BH9-nE-GTy">
-                                <rect key="frame" x="184" y="785" width="46" height="30"/>
+                                <rect key="frame" x="193" y="785" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="shawnBttn:" destination="pNX-xx-GZF" eventType="touchUpInside" id="LUz-CJ-y8m"/>
                                 </connections>
@@ -122,6 +111,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQf-Pl-AwA">
+                                <rect key="frame" x="193" y="642" width="32" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cJZ-Tn-ydR"/>
+                                    <constraint firstAttribute="width" constant="46" id="j12-Y6-RSo"/>
+                                </constraints>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="poonamBttn:" destination="pNX-xx-GZF" eventType="touchUpInside" id="726-gU-y3Y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.57307934260000004" green="0.77355197689999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -132,8 +132,10 @@
                             <constraint firstItem="abo-ZC-IoX" firstAttribute="bottom" secondItem="dQf-Pl-AwA" secondAttribute="bottom" constant="191" id="I0A-ye-Z2b"/>
                             <constraint firstItem="evm-rx-obg" firstAttribute="top" secondItem="OuC-rz-vOi" secondAttribute="bottom" constant="8" id="JV2-Rs-AoL"/>
                             <constraint firstItem="evm-rx-obg" firstAttribute="leading" secondItem="abo-ZC-IoX" secondAttribute="leading" constant="67" id="Plg-VE-7dz"/>
+                            <constraint firstItem="abo-ZC-IoX" firstAttribute="trailing" secondItem="RX9-d6-4lH" secondAttribute="trailing" constant="184" id="SRD-ou-uJb"/>
                             <constraint firstItem="dQf-Pl-AwA" firstAttribute="leading" secondItem="abo-ZC-IoX" secondAttribute="leading" constant="184" id="Xoq-6A-IRG"/>
                             <constraint firstItem="OuC-rz-vOi" firstAttribute="leading" secondItem="abo-ZC-IoX" secondAttribute="leading" constant="67" id="ZfM-LU-ViS"/>
+                            <constraint firstItem="RX9-d6-4lH" firstAttribute="leading" secondItem="abo-ZC-IoX" secondAttribute="leading" constant="184" id="b47-SG-bO4"/>
                             <constraint firstItem="abo-ZC-IoX" firstAttribute="trailing" secondItem="evm-rx-obg" secondAttribute="trailing" constant="67" id="dJ7-Mr-sq9"/>
                             <constraint firstItem="dQf-Pl-AwA" firstAttribute="top" secondItem="evm-rx-obg" secondAttribute="bottom" constant="15" id="o2X-uQ-Nig"/>
                             <constraint firstItem="abo-ZC-IoX" firstAttribute="trailing" secondItem="dQf-Pl-AwA" secondAttribute="trailing" constant="184" id="uPF-eZ-5Ct"/>
