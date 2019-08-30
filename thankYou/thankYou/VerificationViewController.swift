@@ -25,6 +25,7 @@ class VerificationViewController: UIViewController {
         if(chrisCheck == christf.text){
             let vc = ChrisViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+            //performSegue(withIdentifier: "christransition", sender: UIButton.self)
         }
     }
     
