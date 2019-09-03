@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C8120D231E2651002F5D71 /* ShawnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8120C231E2651002F5D71 /* ShawnTableViewController.swift */; };
+		18C8120F231E2777002F5D71 /* thanksMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8120E231E2777002F5D71 /* thanksMessages.swift */; };
+		18C81211231E2AC4002F5D71 /* ShawnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C81210231E2AC4002F5D71 /* ShawnTableViewCell.swift */; };
 		BA0A0D9F22FCD71C00CC04E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0D9E22FCD71C00CC04E5 /* AppDelegate.swift */; };
 		BA0A0DA122FCD71C00CC04E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0DA022FCD71C00CC04E5 /* ViewController.swift */; };
 		BA0A0DA422FCD71D00CC04E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0DA222FCD71D00CC04E5 /* Main.storyboard */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C8120C231E2651002F5D71 /* ShawnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawnTableViewController.swift; sourceTree = "<group>"; };
+		18C8120E231E2777002F5D71 /* thanksMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thanksMessages.swift; sourceTree = "<group>"; };
+		18C81210231E2AC4002F5D71 /* ShawnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawnTableViewCell.swift; sourceTree = "<group>"; };
 		BA0A0D9B22FCD71C00CC04E5 /* thankYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thankYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0A0D9E22FCD71C00CC04E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0A0DA022FCD71C00CC04E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +107,9 @@
 			children = (
 				BA0A0DDE22FCDA2600CC04E5 /* Poonam.storyboard */,
 				C917B5742302484800A39A58 /* Shawn.storyboard */,
+				18C8120C231E2651002F5D71 /* ShawnTableViewController.swift */,
+				18C81210231E2AC4002F5D71 /* ShawnTableViewCell.swift */,
+				18C8120E231E2777002F5D71 /* thanksMessages.swift */,
 				BA0A0DDB22FCDA1400CC04E5 /* Hugo.storyboard */,
 				BA0A0DD922FCD9FA00CC04E5 /* Chris.storyboard */,
 				BA0A0DD622FCD9DE00CC04E5 /* Verification.storyboard */,
@@ -296,8 +305,11 @@
 			files = (
 				BA0A0DD122FCD82D00CC04E5 /* PoonamViewController.swift in Sources */,
 				BA0A0DCD22FCD80300CC04E5 /* ChrisViewController.swift in Sources */,
+				18C81211231E2AC4002F5D71 /* ShawnTableViewCell.swift in Sources */,
+				18C8120F231E2777002F5D71 /* thanksMessages.swift in Sources */,
 				BA0A0DCF22FCD81500CC04E5 /* HugoViewController.swift in Sources */,
 				BA0A0DD322FCD8A300CC04E5 /* MainViewController.swift in Sources */,
+				18C8120D231E2651002F5D71 /* ShawnTableViewController.swift in Sources */,
 				C917B5772302486E00A39A58 /* ShawnViewController.swift in Sources */,
 				BA0A0DA122FCD71C00CC04E5 /* ViewController.swift in Sources */,
 				BA0A0DD522FCD94600CC04E5 /* VerificationViewController.swift in Sources */,
