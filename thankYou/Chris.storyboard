@@ -29,39 +29,51 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TeamOne" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-3m-ne2">
-                                <rect key="frame" x="112" y="63" width="94" height="68"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris2" translatesAutoresizingMaskIntoConstraints="NO" id="F1P-7z-YWZ">
+                                <rect key="frame" x="140" y="76" width="159" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris2" translatesAutoresizingMaskIntoConstraints="NO" id="F1P-7z-YWZ">
-                                <rect key="frame" x="230" y="63" width="75" height="72"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris1" translatesAutoresizingMaskIntoConstraints="NO" id="FDp-4B-tT3">
+                                <rect key="frame" x="2" y="78" width="140" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris1" translatesAutoresizingMaskIntoConstraints="NO" id="FDp-4B-tT3">
-                                <rect key="frame" x="20" y="38" width="77" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris3" translatesAutoresizingMaskIntoConstraints="NO" id="NVo-FR-rO5">
-                                <rect key="frame" x="324" y="44" width="84" height="60"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris3" translatesAutoresizingMaskIntoConstraints="NO" id="NVo-FR-rO5">
+                                <rect key="frame" x="299" y="78" width="115" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Way-T0-oKV" customClass="Chris">
                                 <rect key="frame" x="57" y="31" width="25" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRz-0j-CGe">
-                                <rect key="frame" x="6" y="639" width="402" height="246"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Oo-fFc">
+                                <rect key="frame" x="3" y="155" width="408" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Chris Rupp you are truly an inspiration. Not only are you a lean green veggie eating machine and a mountain sprinting legend, you’re also a national champion. The most admirable thing about you is not these amazing accolades, but how humble you are in all of your greatness, but seriously its been awesome working with you this summer. You have amazing energy, you’ve given us great guidance, and your presence was always a highlight in my days. Thank you so much for investing your time and energy into us. You’re an amazing person, and I’ll carry you in my memories and prayers! -Robby </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">Thank you Chris for always making time for my teammates and I. Your constant support in the team rooms were so beneficial towards our end product. Also want to thank you for meeting me one on one to discuss being a PM at Microsoft. Definitely want to stay connected! -Ibrahim</string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Oo-fFc">
-                                <rect key="frame" x="6" y="127" width="408" height="125"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4S-9i-8Me">
+                                <rect key="frame" x="2" y="259" width="400" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Thank you Chris for always making time for my teammates and I. Your constant support in the team rooms were so beneficial towards our end product. Also want to thank you for meeting me one on one to discuss being a PM at Microsoft. Definitely want to stay connected! -Ibrahim</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">Thank you for helping us and supporting us throughout the program. You gave us a lot of great feedback in various parts of our project. I’ll miss randomly bumping into you in the kitchen and talking about your running stories. Let’s keep in touch! -Megan</string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0C-h4-8qN">
+                                <rect key="frame" x="0.0" y="371" width="400" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hi Chris! It was a pleasure meeting you this summer and I wanted to thank you for the time you have dedicated to our team, Satya 5. We couldn't have asked for a better PM coach! You made me feel comfortable in sharing my ideas and giving valuable feedback. I appreciated that. :) Stay cool -Daiana</string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRz-0j-CGe">
+                                <rect key="frame" x="3" y="654" width="402" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Chris Rupp you are truly an inspiration. Not only are you a lean green veggie eating machine and a mountain sprinting legend, you’re also a national champion. The most admirable thing about you is not these amazing accolades, but how humble you are in all of your greatness, but seriously its been awesome working with you this summer. You have amazing energy, you’ve given us great guidance, and your presence was always a highlight in my days. Thank you so much for investing your time and energy into us. You’re an amazing person, and I’ll carry you in my memories and prayers! -Robby </string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -84,6 +96,5 @@
         <image name="Chris2" width="700" height="500"/>
         <image name="Chris3" width="700" height="500"/>
         <image name="Mount Rainier" width="375" height="812"/>
-        <image name="TeamOne" width="672" height="378"/>
     </resources>
 </document>
